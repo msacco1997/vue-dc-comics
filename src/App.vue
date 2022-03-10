@@ -1,17 +1,23 @@
 <template>
   <div id="app">
     <PageHeader />
+    <PageMain />
+    <CtaList />
     <PageFooter />
   </div>
 </template>
 
 <script>
 import PageHeader from '../../vue-dc-comics/src/components/PageHeader.vue'
+import PageMain from '../../vue-dc-comics/src/components/PageMain.vue'
+import CtaList from '../../vue-dc-comics/src/components/CtaList.vue'
 import PageFooter from '../../vue-dc-comics/src/components/PageFooter.vue'
 export default {
   name: 'App',
   components: {
     PageHeader,
+    PageMain,
+    CtaList,
     PageFooter,
   }
 }
