@@ -1,16 +1,18 @@
 <template>
   <div id="app">
     <PageHeader />
+    <PageFooter />
   </div>
 </template>
 
 <script>
 import PageHeader from '../../vue-dc-comics/src/components/PageHeader.vue'
-
+import PageFooter from '../../vue-dc-comics/src/components/PageFooter.vue'
 export default {
   name: 'App',
   components: {
     PageHeader,
+    PageFooter,
   }
 }
 </script>
