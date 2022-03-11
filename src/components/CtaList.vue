@@ -88,7 +88,7 @@ $blue: #0282F9;
         .cta{
             width: 100%;
             background-color: $blue;
-            height: 140px;
+            height: 120px;
             .container{
                 max-width: 1600px;
                 margin: 0 auto;
